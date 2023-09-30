@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Navbar } from "../components/Navbar";
 
 export const metadata = {
   title: "Next.js",
@@ -10,17 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">about</Link>
-            </li>
-            <li></li>
-          </ul>
-        </nav>
+        <Navbar />
       </body>
     </html>
   );

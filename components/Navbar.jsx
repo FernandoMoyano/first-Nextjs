@@ -4,6 +4,7 @@ import Link from "next/link";
 export const Navbar = () => {
   return (
     <nav>
+      <h2>Navbar</h2>
       <ul>
         <li>
           <Link href="/">Home</Link>

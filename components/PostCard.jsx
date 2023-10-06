@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
+
 //React client component
 const PostCard = ({ post }) => {
   return (
@@ -13,6 +14,7 @@ const PostCard = ({ post }) => {
       </Link>
       <p>{post.body}</p>
       <button onClick={() => {}}>Click</button>
+      
     </div>
   );
 };
